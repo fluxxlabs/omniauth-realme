@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"><soapenv:Body><samlp:ArtifactResponse ID="fa29e17c161a57e9720ca2c551a04122" InResponseTo="_ffc09c70-b58e-012e-ed66-482a143f9a53" IssueInstant="2011-08-30T23:37:51Z" Version="2.0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:samlp="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><saml:Issuer Format="urn:oasis:names:tc:SAML:2.0:nameid-format:entity">https://www.logon.i.govt.nz/mts2</saml:Issuer><samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/></samlp:Status><samlp:Response Consent="urn:oasis:names:tc:SAML:2.0:consent:unspecified" Destination="https://sample-service-provider.org.nz/mts2/sp" ID="ab00ab7822c761bda233ec0320113af1" InResponseTo="_fb277000-b58e-012e-ed65-482a143f9a53" IssueInstant="2011-08-30T23:37:50Z" Version="2.0"><saml:Issuer>https://www.logon.i.govt.nz/mts2</saml:Issuer><samlp:Status><samlp:StatusCode Value="urn:oasis:names:tc:SAML:2.0:status:Success"/></samlp:Status><saml:Assertion ID="ff60a0b7bfc812c61fb7f63bff629953" IssueInstant="2011-08-30T23:37:50Z" Version="2.0"><saml:Issuer>https://www.logon.i.govt.nz/mts2</saml:Issuer><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<ds:Reference URI="#ff60a0b7bfc812c61fb7f63bff629953">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<ds:DigestValue>woPam/I4nbX8YIRSIVKr1jVFQew=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+IukmDfooQQwoi0KAaDdZ9K65oHxxtFsmDQoasdaRn4qOQSemYup1Kautbd84UQp2ILpH0fQoyNxv
+dAzdue7ct7pmnpNNEWRTaPa7bGF2ilg2r7OO+1hE956CwvBrX0wenX7FdkU3Ep/O1y1CirvlSC+o
+ebvZ6YKXv4/Q7tgZFC0=
+</ds:SignatureValue>
+</ds:Signature><saml:Subject><saml:NameID Format="urn:oasis:names:tc:SAML:2.0:nameid-format:persistent" NameQualifier="https://www.logon.i.govt.nz/mts2" SPNameQualifier="https://sample-service-provider.org.nz/mts2/sp">1234567890</saml:NameID><saml:SubjectConfirmation Method="urn:oasis:names:tc:SAML:2.0:cm:bearer"><saml:SubjectConfirmationData InResponseTo="_fb277000-b58e-012e-ed65-482a143f9a53" NotOnOrAfter="2011-08-30T23:47:50Z" Recipient="https://sample-service-provider.org.nz/auth/realme/callback"/></saml:SubjectConfirmation></saml:Subject><saml:Conditions NotBefore="2011-08-30T23:32:50Z" NotOnOrAfter="2011-08-30T23:47:50Z"><saml:AudienceRestriction><saml:Audience>https://sample-service-provider.org.nz/mts2/sp</saml:Audience></saml:AudienceRestriction></saml:Conditions><saml:AuthnStatement AuthnInstant="2011-08-30T23:37:50Z" SessionIndex="ff60a0b7bfc812c61fb7f63bff629953"><saml:SubjectLocality Address="123.456.123.4" DNSName="123.456.123.4"/><saml:AuthnContext><saml:AuthnContextClassRef>urn:nzl:govt:ict:stds:authn:deployment:GLS:SAML:2.0:ac:classes:LowStrength</saml:AuthnContextClassRef></saml:AuthnContext></saml:AuthnStatement><saml:AttributeStatement xmlns:xs="http://www.w3.org/2001/XMLSchema"><saml:Attribute FriendlyName="contact_details_last_mod" Name="contact_details_last_mod" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"><saml:AttributeValue xsi:type="xs:string"/></saml:Attribute></saml:AttributeStatement></saml:Assertion></samlp:Response></samlp:ArtifactResponse></soapenv:Body></soapenv:Envelope>
