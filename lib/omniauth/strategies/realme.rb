@@ -30,4 +30,4 @@ module OmniAuth
   end
 end
 
-#OmniAuth.config.add_camelization 'igovt', 'Igovt'
+OmniAuth.config.add_camelization 'realme', 'RealMe'
