@@ -32,7 +32,7 @@ module OmniAuth
                 AllowCreate="true"
                 Format="#{settings[:name_identifier_format]}"></samlp:NameIDPolicy>
               <samlp:RequestedAuthnContext>
-                <saml:AuthnContextClassRef>urn:nzl:govt:ict:stds:authn:deployment:GLS:SAML:2.0:ac:classes:ModStrength</saml:AuthnContextClassRef>
+                <saml:AuthnContextClassRef>urn:nzl:govt:ict:stds:authn:deployment:GLS:SAML:2.0:ac:classes:LowStrength</saml:AuthnContextClassRef>
               </samlp:RequestedAuthnContext>
             </samlp:AuthnRequest>
             EOF
